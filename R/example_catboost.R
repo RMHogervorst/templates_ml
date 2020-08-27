@@ -102,8 +102,7 @@ catboost_grid <-
 # /// (contains the work)
 catboost_wf <- 
     workflows::workflow() %>%
-    add_model(catboost_model
-             ) %>% 
+    add_model(catboost_model ) %>% 
     add_formula(sale_price ~ .)
 
 # /// so far little to no computation has been performed except for
