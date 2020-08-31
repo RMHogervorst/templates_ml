@@ -23,6 +23,7 @@ library(treesnip)
 library(ggplot2)
 
 # speed up computation with parrallel processing (optional)
+# WARNING, THIS RESULTS IN ERRORS FOR WINDOWS. 
 library(doParallel)
 all_cores <- parallel::detectCores(logical = FALSE) 
 # in xgboost the cores were not optimally used on my mac, but lgbm is filling
