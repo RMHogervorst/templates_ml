@@ -10,7 +10,7 @@ Examples in both python and R contain 'pipelines' a sequence of steps, so you pe
 |simple categorical  | [simple categorical rf.py](categorical_prediction_rf.py) |[categorical_prediction_rf.R](categorical_prediction_rf.R)|
 |simple categorical with lightgbm | |[categorical_prediction_lgbm.R](categorical_prediction_lgbm.R)|
 |cross validation | |[cross_validation](cross_validation.R)|
-|hyperparameter tuning | |[hyperparameter_tuning](hyperparameter_tuning.R)|
+|hyperparameter tuning |[hyperparameter_tuning.py](hyperparameter_tuning.py) |[hyperparameter_tuning](hyperparameter_tuning.R)|
 
 
 # Comparison R and Python templates
