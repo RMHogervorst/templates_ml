@@ -1,15 +1,13 @@
 # categorical prediction with sklearn and random forest
 # <https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html>
-
-import numpy as np
-
 # imports ----
+import numpy as np
+from sklearn.datasets import make_classification # only for this example
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.impute import SimpleImputer
+from sklearn.metrics import accuracy_score, cohen_kappa_score
 from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline
-from sklearn.datasets import make_classification
-from sklearn.metrics import accuracy_score, cohen_kappa_score
 
 ## Split file into training and test set ----
 X, y = make_classification(

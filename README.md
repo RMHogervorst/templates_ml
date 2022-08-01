@@ -3,9 +3,11 @@
 This is a set of templates for machine learning projects. 
 This is a work in progress, and def. not a final or best version.
 
+Examples in both python and R contain 'pipelines' a sequence of steps, so you perform both feature engineering and model training on the trainset. and use the trained artefacts on the testset. That way you do not leak from the testset into the trainingset.
+
 | example | python | R|
 |---------|--------|--|
-|simple categorical  | |[categorical_prediction_rf.R](categorical_prediction_rf.R)|
+|simple categorical  | [simple categorical rf.py](categorical_prediction_rf.py) |[categorical_prediction_rf.R](categorical_prediction_rf.R)|
 |simple categorical with lightgbm | |[categorical_prediction_lgbm.R](categorical_prediction_lgbm.R)|
 |cross validation | |[cross_validation](cross_validation.R)|
 |hyperparameter tuning | |[hyperparameter_tuning](hyperparameter_tuning.R)|
